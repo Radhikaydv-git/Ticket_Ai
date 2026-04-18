@@ -1,0 +1,8 @@
+text,label
+payment failed but money deducted,payment
+order not delivered,delivery
+received damaged product,product
+want to return item,return
+app is crashing,technical
+refund not received,payment
+late delivery issue,delivery
