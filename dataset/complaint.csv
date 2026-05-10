@@ -2,38 +2,118 @@ text,category,priority,channel,status
 login issue unable to access account,authentication,high,web,open
 forgot password not receiving reset link,authentication,medium,app,open
 account locked after multiple attempts,authentication,high,web,closed
+two factor authentication code not received,authentication,high,email,open
+unable to verify email address,authentication,medium,web,open
+session expired repeatedly during login,authentication,low,app,open
+otp verification failed during signup,authentication,medium,app,closed
+social login with google not working,authentication,medium,web,open
 
 payment failed but amount deducted,payment,high,app,open
 refund not received for cancelled order,payment,medium,email,open
 charged twice for same purchase,payment,high,web,closed
+upi payment stuck in processing,payment,high,app,open
+credit card transaction declined unexpectedly,payment,medium,web,open
+cashback not credited after payment,payment,low,app,open
+subscription renewed without permission,payment,high,email,closed
+emi option not available during checkout,payment,medium,web,open
+coupon applied but discount not reflected,payment,low,app,open
+wallet balance deducted incorrectly,payment,high,app,closed
 
 app crashing when opening dashboard,technical,high,app,open
 website not loading properly,technical,medium,web,open
 error 500 on submitting form,technical,high,web,closed
+application freezing after update,technical,high,app,open
+unable to connect to server,technical,high,web,open
+database timeout error on checkout,technical,medium,web,closed
+mobile app not compatible with latest android version,technical,medium,app,open
+notifications not appearing in app,technical,low,app,open
+broken links found on website,technical,low,web,open
+audio not working during video call,technical,medium,app,closed
 
 order not delivered yet,delivery,medium,app,open
 delivery delayed beyond expected date,delivery,low,email,open
 tracking shows delivered but not received,delivery,high,web,closed
+package stuck at transit hub,delivery,medium,web,open
+delivery executive unreachable,delivery,low,app,open
+wrong delivery address updated automatically,delivery,high,web,closed
+partial order delivered,delivery,medium,app,open
+same day delivery not completed,delivery,medium,email,open
+delivery rescheduled without notice,delivery,low,web,open
+international shipment delayed,delivery,high,email,closed
 
 received defective product,product,high,app,open
 wrong product delivered,product,medium,email,open
 product stopped working after few days,product,high,web,closed
+missing accessories inside package,product,medium,app,open
+received expired product,product,high,email,open
+size mismatch in delivered item,product,low,web,open
+product image different from actual item,product,medium,app,closed
+damaged packaging on arrival,product,medium,web,open
+replacement product also defective,product,high,email,open
+warranty claim rejected unexpectedly,product,high,web,closed
 
 want to return purchased item,return,low,app,open
 return request not processed,return,medium,email,open
 refund delay after return,return,high,web,closed
+pickup agent did not arrive for return,return,medium,app,open
+return option unavailable for eligible product,return,high,web,open
+exchange request pending for long time,return,medium,email,open
+incorrect refund amount issued,return,high,app,closed
+return cancelled without explanation,return,medium,web,open
+unable to print return label,return,low,email,open
+return window expired too soon,return,medium,app,closed
 
 slow performance of application,performance,medium,web,open
 app taking too long to load,performance,medium,app,open
+high cpu usage while running app,performance,high,desktop,open
+memory leak causing slowdown,performance,high,web,closed
+video buffering frequently,performance,medium,app,open
+search functionality responding slowly,performance,low,web,open
+lag during online gaming session,performance,high,desktop,open
+website timing out during peak hours,performance,high,web,closed
+large file uploads taking too long,performance,medium,app,open
+delayed push notifications,performance,low,mobile,open
 
 unable to upload files,feature,medium,app,open
 feature not working as expected,feature,low,web,open
+dark mode option missing,feature,low,app,open
+chat feature not responding,feature,medium,web,closed
+calendar sync feature failing,feature,medium,email,open
+voice search not detecting input,feature,medium,app,open
+unable to share content on social media,feature,low,web,open
+export to pdf feature unavailable,feature,medium,desktop,closed
+auto save feature not functioning,feature,high,web,open
+multi language support missing,feature,low,app,open
 
 unable to update profile details,account,low,app,open
 email change not working,account,medium,email,open
+phone number update failing,account,medium,web,open
+profile picture not uploading,account,low,app,closed
+unable to delete account,account,high,web,open
+account details not syncing across devices,account,medium,app,open
+username already taken incorrectly,account,low,web,open
+privacy settings reverting automatically,account,medium,email,closed
+date of birth update rejected,account,low,app,open
+account suspended without notice,account,high,web,closed
 
 security concern unauthorized login,security,high,web,open
 account hacked need recovery,security,high,email,closed
+suspicious activity alert received,security,medium,app,open
+password changed without permission,security,high,web,open
+phishing email pretending to be support,security,medium,email,open
+data breach concern regarding personal information,security,high,web,closed
+malware warning after installing app,security,high,desktop,open
+unrecognized device logged into account,security,medium,app,open
+payment information security concern,security,high,email,closed
+spam messages received through platform,security,low,web,open
 
 incorrect billing amount,billing,high,app,open
 invoice not generated,billing,medium,web,open
+gst details missing on invoice,billing,medium,email,open
+billing address update not saved,billing,low,web,open
+subscription invoice duplicated,billing,high,app,closed
+tax charged incorrectly,billing,high,email,open
+monthly statement not available,billing,medium,web,open
+unexpected service charges added,billing,high,app,closed
+billing cycle changed automatically,billing,medium,email,open
+credit note not issued after cancellation,billing,high,web,open
