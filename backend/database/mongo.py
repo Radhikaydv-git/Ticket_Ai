@@ -1,1 +1,1 @@
-#data base for monogodb
+# Code for mongodb connection
