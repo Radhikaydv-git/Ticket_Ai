@@ -1,79 +1,104 @@
-live chat support unavailable,feature,medium,web,open
-unable to download invoice pdf,billing,medium,web,open
-order cancelled automatically after payment,payment,high,app,open
-mobile number verification taking too long,authentication,medium,app,open
-app logout happening automatically,authentication,low,app,open
-bluetooth device not connecting,technical,medium,mobile,open
-server maintenance message appearing repeatedly,technical,low,web,open
-unable to add items to cart,feature,medium,web,open
-wishlist items disappearing,feature,low,app,open
-promo code expired unexpectedly,payment,medium,web,open
-bank account verification failed,payment,high,app,open
-delivery agent marked customer unavailable incorrectly,delivery,medium,app,open
-package arrived opened,delivery,high,email,open
-return pickup delayed repeatedly,return,medium,app,open
-replacement request rejected,return,high,web,open
-product color different from ordered item,product,medium,app,open
-speaker volume too low in product,product,low,web,open
-system overheating while using application,performance,high,desktop,open
-battery draining quickly after update,performance,medium,mobile,open
-cloud backup feature not syncing,feature,medium,web,open
-fingerprint login not functioning,authentication,medium,mobile,open
-unable to reset password using otp,authentication,high,app,closed
-third party login session expired,authentication,low,web,open
-duplicate transaction history displayed,payment,medium,web,open
-payment receipt email not received,payment,low,email,open
-checkout page stuck on loading,technical,high,web,open
-api integration failing intermittently,technical,high,desktop,open
-search filters not applying correctly,feature,medium,web,closed
-unable to edit saved address,account,medium,app,open
-profile changes not reflecting immediately,account,low,web,open
-security code email delayed,security,medium,email,open
-multiple unauthorized password reset attempts,security,high,web,open
-invoice showing incorrect customer name,billing,medium,email,open
-subscription cancellation option hidden,billing,high,web,open
-payment gateway redirect failing,payment,high,app,open
-gift card balance not updating,payment,medium,web,open
-video playback stuck at buffering,performance,medium,app,open
-high network latency during calls,performance,high,desktop,open
-application consuming excessive ram,performance,high,desktop,closed
-return confirmation email not received,return,low,email,open
-product barcode missing on package,product,medium,app,open
-fake product suspected by customer,product,high,web,open
-tracking link opening wrong order,delivery,medium,web,open
-shipment status not updated for days,delivery,medium,email,open
-notification sound not working,technical,low,mobile,open
-captcha verification failing repeatedly,authentication,medium,web,open
-payment deducted but order not created,payment,high,app,closed
-auto renewal charged twice,billing,high,email,open
-account temporarily disabled without reason,account,high,web,open
-unable to unlink social media account,account,medium,app,open
-voice call dropping frequently,technical,medium,app,open
-screen flickering after latest update,technical,high,mobile,open
-application not opening on ios devices,technical,high,mobile,closed
-order invoice missing from account,billing,medium,web,open
-refund credited to wrong payment method,return,high,app,open
-security questions not accepted,security,medium,web,open
-spam notifications received daily,security,low,app,open
-dark mode causing text overlap,feature,low,mobile,open
-analytics dashboard not loading,feature,medium,desktop,open
-qr code scanner not detecting codes,feature,medium,mobile,open
-database synchronization failed,technical,high,desktop,closed
-unable to access premium features,account,medium,web,open
-session timeout too short,authentication,low,web,open
-international payment not accepted,payment,high,web,open
-refund processed but not reflected in bank,payment,high,email,open
-application crashes during file upload,technical,high,app,open
-voice assistant feature unavailable,feature,medium,mobile,open
-auto logout while making payment,payment,high,app,open
-duplicate order placed accidentally,delivery,medium,web,open
-damaged item replacement delayed,product,high,email,open
-subscription benefits missing from account,billing,medium,app,open
-browser compatibility issues on firefox,technical,medium,web,open
-unable to archive old chats,feature,low,desktop,open
-customer support response taking too long,account,medium,email,open
-payment confirmation delayed,payment,medium,app,open
-order history not visible,account,low,web,open
-app permissions resetting automatically,technical,medium,mobile,open
-security alert sent for known device,security,low,email,open
-invoice pdf downloading blank pages,billing,medium,desktop,open
+smartwatch pairing failed with mobile app,technical,medium,mobile,open
+unable to update profile picture,account,low,app,open
+refund request button not visible,return,medium,web,open
+otp verification code expired instantly,authentication,high,app,open
+order tracking page showing error 404,delivery,medium,web,open
+application freezing during checkout,payment,high,app,open
+invoice email sent multiple times,billing,low,email,open
+customer received wrong shipment,delivery,high,app,open
+membership renewal not processed,billing,medium,web,open
+cart items duplicated automatically,feature,medium,web,open
+unable to upload documents for verification,account,high,web,open
+password reset link redirecting incorrectly,authentication,medium,email,open
+notification badge count inaccurate,feature,low,mobile,open
+audio quality distorted during calls,technical,medium,app,open
+payment page crashing on safari browser,payment,high,web,open
+delivery address validation failed,delivery,medium,app,open
+subscription invoice generated twice,billing,medium,email,open
+slow response while switching tabs,performance,low,desktop,open
+unable to change registered email,account,high,web,open
+system showing maintenance despite active servers,technical,medium,web,open
+search results displaying irrelevant items,feature,medium,web,open
+wallet balance deducted incorrectly,payment,high,app,open
+returns page loading blank screen,return,medium,web,open
+camera permission denied automatically,technical,medium,mobile,open
+voice messages not sending,technical,medium,app,open
+incorrect discount applied during checkout,payment,medium,web,open
+premium subscription activated late,billing,medium,app,open
+unable to connect wearable device,technical,medium,mobile,open
+security alert emails sent repeatedly,security,low,email,open
+shipping charges calculated incorrectly,payment,high,web,open
+mobile app crashing after login,technical,high,mobile,open
+duplicate notifications appearing frequently,feature,low,app,open
+customer unable to verify identity,security,high,web,open
+refund request stuck in processing,return,high,app,open
+dark mode icons not visible properly,feature,low,mobile,open
+browser session expiring too quickly,authentication,medium,web,open
+product images not loading on product page,product,medium,web,open
+subscription upgrade option unavailable,billing,medium,app,open
+application lagging during video calls,performance,high,desktop,open
+incorrect otp sent to customer,authentication,high,app,open
+wishlist not syncing across devices,feature,medium,web,open
+customer charged after cancelled order,payment,high,email,open
+delivery estimate changing frequently,delivery,medium,app,open
+invoice tax amount calculated wrongly,billing,high,web,open
+unable to activate promotional offer,payment,medium,app,open
+screen touch unresponsive inside application,technical,high,mobile,open
+order status reverted to processing unexpectedly,delivery,medium,web,open
+payment processing taking unusually long,payment,medium,web,open
+email notifications not being delivered,technical,medium,email,open
+application not compatible with latest android version,technical,high,mobile,open
+customer unable to redeem loyalty points,payment,medium,app,open
+profile verification pending for too long,account,medium,web,open
+file attachments failing to upload,technical,high,desktop,open
+voice search feature not responding,feature,medium,mobile,open
+duplicate refund initiated accidentally,return,high,web,open
+barcode scanner crashing application,technical,high,mobile,open
+shipping label generated incorrectly,delivery,medium,email,open
+application consuming excessive battery,performance,high,mobile,open
+customer unable to view transaction receipt,payment,medium,web,open
+session login history missing,security,medium,web,open
+payment gateway timeout occurring repeatedly,payment,high,app,open
+delivery notification received after package arrival,delivery,low,app,open
+refund rejected without explanation,return,high,email,open
+product dimensions incorrect on listing,product,medium,web,open
+order placed but stock unavailable,product,high,web,open
+analytics reports exporting blank files,feature,medium,desktop,open
+application stuck on splash screen,technical,high,mobile,open
+two factor authentication not triggering,security,high,web,open
+incorrect billing address on invoice,billing,medium,email,open
+mobile app unable to detect internet connection,technical,medium,mobile,open
+delivery tracking map not updating,delivery,medium,app,open
+customer account merged incorrectly,account,high,web,open
+payment auto debit failed unexpectedly,payment,high,app,open
+saved payment methods disappearing,payment,medium,web,open
+refund amount partially credited,return,high,email,open
+application crashing while opening settings,technical,medium,app,open
+voice assistant responding slowly,performance,medium,mobile,open
+chat history deleted automatically,feature,medium,desktop,open
+incorrect language displayed after update,feature,low,web,open
+captcha images not loading,authentication,medium,web,open
+shipping confirmation email delayed,delivery,low,email,open
+customer unable to access shared files,account,medium,desktop,open
+security verification loop preventing login,security,high,app,open
+duplicate invoices generated for single order,billing,high,web,open
+application lagging on low memory devices,performance,medium,mobile,open
+subscription auto renewal not cancellable,billing,high,web,open
+product warranty details missing,product,medium,app,open
+payment confirmation sms not received,payment,low,mobile,open
+unable to restore deleted account,account,high,web,open
+system error shown during checkout,payment,high,web,open
+tracking notifications arriving out of order,delivery,low,app,open
+refund request automatically closed,return,high,app,open
+microphone access failing during calls,technical,high,mobile,open
+app crashing when enabling dark mode,technical,medium,mobile,open
+customer support chatbot unavailable,feature,medium,web,open
+international shipping option unavailable,delivery,medium,web,open
+video uploads failing above size limit,technical,medium,desktop,open
+incorrect loyalty points balance displayed,payment,medium,app,open
+subscription invoice pdf corrupted,billing,high,email,open
+order cancellation request ignored,delivery,high,app,open
+qr payment scanner not opening,technical,medium,mobile,open
+saved addresses deleted unexpectedly,account,medium,web,open
+login page not loading on firefox,authentication,high,web,open
+system notifications delayed significantly,performance,medium,desktop,open
